@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            header {
+                background-color: #333;
+                color: white;
+            }
+            table:first-child, tr, td {
+                padding: 10px;
+            }    
+
+            section {
+                padding: 20px;
+                margin: 10px;
+            }
+            section:first-child {
+                box-shadow: 5px 5px 5px 5px #999;
+            }
+
+            section:first-child table {
+                width: 100%;
+            }
+            section:first-child table thead tr th {
+                width: 33%;
+                text-align: left;
+                padding-left: 120px;
+            }
+            section:first-child tbody tr td {
+                padding-left: 100px;
+            }
+
+            section:nth-child(2) table {
+                width: 70%;
+                float: left;
+            }
+
+            section:nth-child(2) aside {
+                width: calc(30% - 20px);
+                display: inline-block;
+            }
+
+            section:nth-child(2) aside li {
+                margin-bottom: 15px;
+            }
+
+            section:nth-child(2) aside h2{
+                padding-left: 40px;
+                margin: 0;
+            }
+
+
+            section:nth-child(2) aside article{
+                border: 1px solid black;
+                padding: 5px;
+            }
+
+            section:nth-child(2) table td {
+                text-align: center;
+                height: 4px;
+                line-height: 4px;
+            }
+
+            footer {
+                background-color: #333;
+                color: white;
+            }
+
+            footer table {
+                width: 100%;
+            }
+
+            footer table tr td {
+                text-align: center;
+                font-size: 18px;
+            }
+
+            footer table form input:first-child {
+                width: 200px;
+                height: 25px;
+                border: 1px solid #fff;
+                border-radius: 5px;
+                padding: 0 5px;
+            }
+
+            footer table form input:last-child {
+                width: 70px;
+                height: 25px;
+                border: 1px solid #f18c8c;
+                border-radius: 5px;
+                background-color: #f18c8c;
+                cursor: pointer;
+            }
+
+            section:nth-child(3) form table tr:first-child td:last-child label {
+                display: block;
+            }
+
+            section:nth-child(3) form table {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <table>
+                <tr>
+                    <td> Home </td>
+                    <td> Results </td>
+                    <td> Fixtures </td>
+                    <td> Standings </td>
+                    <td> Blog </td>
+                </tr>
+            </table>
+        </header>
+        <main>
+            <section>
+                <h2>Tops</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Standings</th>
+                            <th>Goal Scorers</th>
+                            <th>Assists</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Liverpool</li>
+                                    <li>Manchester City</li>
+                                    <li>Chelsea</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Salah</li>
+                                    <li>Sterling</li>
+                                    <li>Abraham</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Fermino</li>
+                                    <li>Silva</li>
+                                    <li>Mount</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+            <h2>Standings</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th> Team </th>
+                        <th> Matches </th>
+                        <th> Win </th>
+                        <th> Draw </th>
+                        <th> Lose </th>
+                        <th colspan="2"> Goals </th>
+                        <th> Points </th>
+                        <th> Zone </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                        <td rowspan="8"> Champions League </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                        <td rowspan="6"> Europe League </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>   
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                        <td rowspan="20">  </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>   
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>   
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>   
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>   
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>   
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>   
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>   
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>   
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                        <td rowspan="6"> Relegation Zone </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                    <tr>
+                        <td rowspan="2"> Liverpool </td>
+                        <td rowspan="2"> 10 </td>
+                        <td rowspan="2"> 8 </td>
+                        <td rowspan="2"> 2 </td>
+                        <td rowspan="2"> 0 </td>
+                        <td> 25 </td>
+                        <td> 5 </td>
+                        <td rowspan="2"> 26 </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 20 </td>
+                    </tr>    
+                </tbody>
+            </table>
+            <aside>
+                <h2>News</h2>
+                <ul>
+                    <li>
+                        <article>
+                            <figure>
+                                <img src="./amazon.png" alt="Amazon">
+                                <figcaption>
+                                    <a href="https://amazon.com" target="_blank">Visit Website</a>
+                                </figcaption>
+                            </figure>
+                            <p>Today Manchester City trainer Joseb Guardiola had an interview about...</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <figure>
+                                <img src="./amazon.png" alt="Amazon">
+                                <figcaption>
+                                    <a href="https://amazon.com" target="_blank">Visit Website</a>
+                                </figcaption>
+                            </figure>
+                            <p>Today Manchester City trainer Joseb Guardiola had an interview about...</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <figure>
+                                <img src="./amazon.png" alt="Amazon">
+                                <figcaption>
+                                    <a href="https://amazon.com" target="_blank">Visit Website</a>
+                                </figcaption>
+                            </figure>
+                            <p>Today Manchester City trainer Joseb Guardiola had an interview about...</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <figure>
+                                <img src="./amazon.png" alt="Amazon">
+                                <figcaption>
+                                    <a href="https://amazon.com" target="_blank">Visit Website</a>
+                                </figcaption>
+                            </figure>
+                            <p>Today Manchester City trainer Joseb Guardiola had an interview about...</p>
+                        </article>
+                    </li>
+                    
+                </ul>
+            </aside>
+            </section>
+            <section>
+                <h2> Please Send us your prediction</h2>
+                <form method="POST">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name">
+                            </td>
+                            <td>
+                                <label for="club">Favorite Club</label>
+                                <select name="club" id="club">
+                                    <option value="0">Choose your club</option>
+                                    <option value="1">Liverpool</option>
+                                    <option value="1">Liverpool</option>
+                                    <option value="1">Liverpool</option>
+                                </select>
+                            </td>
+                            <td>
+                                <span>Salah Scores: </span>
+                                <input type="radio" name="salah-goals" id="salah1" value="1">
+                                <label for="salah1">0 - 9</label>
+                                <input type="radio" name="salah-goals" id="salah2" value="2">
+                                <label for="salah2">10 - 14</label>
+                            </td>
+                            <td rowspan="3">
+                                <label for="comment"> Write your comment</label>
+                                <textarea rows="10" cols="40" id="comment" name="comment"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email">
+                            </td>
+                            <td>
+                                <label for="chances">Team Chances</label>
+                                <input type="range" name="chances" id="chances" min="0" max="100" step="10" value="50">
+                            </td>
+                            <td>
+                                <input type="radio" name="salah-goals" id="salah3" value="3">
+                                <label for="salah3">15 - 19</label>
+                                <input type="radio" name="salah-goals" id="salah4" value="4">
+                                <label for="salah4">20 - 30</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="number">Age</label>
+                                <input type="number" name="number" id="number">
+                            </td>
+                            <td>
+                                <label for="player">Best Scorer</label>
+                                <input id="player" name="player" list="players">
+                                <datalist id="players">
+                                    <option value="Salah">
+                                    <option value="Mane">
+                                    <option value="Vardy">
+                                    <option value="Abraham">
+                                    <option value="Rashford">
+                                </datalist>
+                            </td>
+                            <td>
+                                <span>Liverpool wins: </span>
+                                <input type="checkbox" name="liv-wins" id="liv1" value="1">
+                                <label for="liv1">Champions League</label>
+                                <input type="checkbox" name="liv-wins" id="liv2" value="2">
+                                <label for="liv2">Premier League</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="address">Address</label>
+                                <input type="text" name="address" id="address">
+                            </td>
+                            <td>
+                                
+                                <label for="scorer-chances">Scorer Chances</label>
+                                <input type="range" name="scorer-chances" id="scorer-chances" min="0" max="100" step="10" value="50">
+                            
+                            </td>
+                            <td>
+                                <input type="checkbox" name="liv-wins" id="liv3" value="3">
+                                <label for="liv3">FA Cup</label>
+                                <input type="checkbox" name="liv-wins" id="liv4" value="4">
+                                <label for="liv4">Carabo Cup</label>
+                            </td>
+                            <td>
+                                <input type="submit" value="send">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <table>
+                <tr>
+                    <td>All rights Reserved</td>
+                    <td>Contact: +9955443344</td>
+                    <td>
+                        <form method="POST">
+                            <input type="email" required placeholder="Type your email">
+                            <input type="submit" value="subscribe">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html>

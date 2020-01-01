@@ -1,0 +1,46 @@
+/* SELECTORS */
+
+/* Tag Selector */ 
+
+div {
+    font-size: 20px;
+}
+
+/* Class Selector  */
+
+.big {
+    color: blue !important;
+    font-weight: bold;
+}
+
+/* Id Selector */
+
+#bottom {
+    color: red;
+}
+
+/* Multiple Selectors */
+
+.big, .small {
+    font-style: italic;
+}
+
+/* Same Element with multiple classes */
+
+.big.bold {
+    background-color: yellow;
+}
+
+/* Nested Selector */
+
+#bottom p {
+    /* color: blue; */
+}
+
+#bla {
+
+}
+
+.small p span {
+    color: red;
+}
