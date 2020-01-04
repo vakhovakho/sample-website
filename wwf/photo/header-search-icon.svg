@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>iconmonstr-magnifier-2-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Header" transform="translate(-1359.000000, -89.000000)" fill="#000000">
+            <g id="iconmonstr-magnifier-2-2" transform="translate(1359.000000, 89.000000)">
+                <path d="M23.809,21.646 L17.604,15.441 C18.771,13.836 19.461,11.862 19.461,9.73 C19.461,4.365 15.096,0 9.73,0 C4.365,0 0,4.365 0,9.73 C0,15.096 4.365,19.46 9.73,19.46 C11.764,19.46 13.653,18.833 15.217,17.762 L21.455,24 L23.809,21.646 L23.809,21.646 Z M2.854,9.73 C2.854,5.938 5.939,2.853 9.731,2.853 C13.523,2.853 16.608,5.938 16.608,9.73 C16.608,13.522 13.523,16.607 9.731,16.607 C5.938,16.607 2.854,13.522 2.854,9.73 L2.854,9.73 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

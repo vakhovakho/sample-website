@@ -1,0 +1,20 @@
+* {
+    text-decoration: none;
+}
+
+.nav-links {
+    background-image: url(./wwf/photo/tiled_geo_light.pngs);
+    padding: 50px 50px;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+.nav-icon a {
+    background-image: url(https://www.wwf.fr/themes/custom/wwf_main_theme/images/header-top-logo-desktop.svg);
+    display: inline-block;
+    left: 50px;
+    bottom: 230px;
+    width: 120px;
+    height: 200px;
+}
